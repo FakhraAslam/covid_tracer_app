@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import MyAppBar from './MyAppBar';
+import Cards from './Cards';
+import MyGrid from './MyGrid';
+import Data from './Data';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+
+  <MyAppBar/>
+  <h2 className=" App "  >New updates about All over the world Patients</h2>
+  <MyGrid/>
+  <Data/>
     </div>
+
   );
 }
 
